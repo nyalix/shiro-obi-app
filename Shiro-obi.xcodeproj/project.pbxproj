@@ -230,6 +230,7 @@
 				TargetAttributes = {
 					E95CC15B1B7D56DD0080F860 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KBX55VFRV8;
 					};
 					E95CC1721B7D56DD0080F860 = {
 						CreatedOnToolsVersion = 6.4;
