@@ -1,4 +1,4 @@
-# shire-obi-app
+# shiro-obi-app
 
 ## install
 
@@ -25,3 +25,17 @@ http://qiita.com/FumihikoSHIROYAMA/items/a754f77c41b585c90329
 
 誰でも無料でiPhoneの実機を使ってiOSアプリ開発する方法
 http://qiita.com/Night___/items/ebe4d55b10804db9700c
+
+
+
+### Author
+
+- nyalix (nyalix.k.yamamoto@gmail.com)
+
+### Copyright
+
+Copyright (c) 2015-2016 nyalix (nyalix.k.yamamoto@gmail.com)
+
+### License
+
+Licensed under the MIT License.
