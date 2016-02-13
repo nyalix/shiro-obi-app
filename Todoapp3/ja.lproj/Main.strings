@@ -1,0 +1,57 @@
+
+/* Class = "UITabBarItem"; title = "Done"; ObjectID = "5oy-aJ-Xia"; */
+"5oy-aJ-Xia.title" = "Done";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "8sl-ap-iOP"; */
+"8sl-ap-iOP.title" = "Cancel";
+
+/* Class = "UITabBarItem"; title = "Doing"; ObjectID = "DdB-1O-8py"; */
+"DdB-1O-8py.title" = "Doing";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "FZb-f5-zxu"; */
+"FZb-f5-zxu.title" = "Cancel";
+
+/* Class = "UINavigationItem"; title = "Todo"; ObjectID = "IJw-dh-3Gh"; */
+"IJw-dh-3Gh.title" = "Todo";
+
+/* Class = "UINavigationItem"; title = "Edit"; ObjectID = "Ms0-Ff-Uzf"; */
+"Ms0-Ff-Uzf.title" = "Edit";
+
+/* Class = "UINavigationItem"; title = "Edit"; ObjectID = "N0b-ur-99N"; */
+"N0b-ur-99N.title" = "Edit";
+
+/* Class = "UIBarButtonItem"; title = "New"; ObjectID = "OCR-2y-eKm"; */
+"OCR-2y-eKm.title" = "New";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Ped-nI-IhP"; */
+"Ped-nI-IhP.title" = "Save";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "SGm-WV-8UE"; */
+"SGm-WV-8UE.text" = "date";
+
+/* Class = "UINavigationItem"; title = "Edit"; ObjectID = "T71-nR-WYN"; */
+"T71-nR-WYN.title" = "Edit";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "V9G-i0-Ffm"; */
+"V9G-i0-Ffm.title" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Yie-ea-6lj"; */
+"Yie-ea-6lj.title" = "Save";
+
+/* Class = "UITabBarItem"; title = "Todo"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Todo";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "c6e-5i-4kh"; */
+"c6e-5i-4kh.text" = "date";
+
+/* Class = "UINavigationItem"; title = "Doing"; ObjectID = "dso-jO-tUg"; */
+"dso-jO-tUg.title" = "Doing";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "ijU-kt-wNg"; */
+"ijU-kt-wNg.title" = "Save";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "tok-Em-S3N"; */
+"tok-Em-S3N.text" = "date";
+
+/* Class = "UINavigationItem"; title = "Done"; ObjectID = "vJz-eX-SU5"; */
+"vJz-eX-SU5.title" = "Done";

@@ -46,6 +46,8 @@
 		E912736E1C4F5ED1008F74FC /* DoneItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneItemViewController.swift; sourceTree = "<group>"; };
 		E91273701C4F5F5B008F74FC /* DoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
 		E91273721C4F7034008F74FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E92F53DE1C6F1FCF0022B1A8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		E92F53DF1C6F1FCF0022B1A8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E95CC15C1B7D56DD0080F860 /* Shiro-obi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shiro-obi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95CC1601B7D56DD0080F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95CC1611B7D56DD0080F860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E95CC1681B7D56DD0080F860 /* Base */,
+				E92F53DE1C6F1FCF0022B1A8 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E95CC16D1B7D56DD0080F860 /* Base */,
+				E92F53DF1C6F1FCF0022B1A8 /* ja */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
