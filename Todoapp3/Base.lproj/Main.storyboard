@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -108,16 +108,16 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1l-4j-Tm4">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="E1l-4j-Tm4" secondAttribute="bottom" id="Gg1-Wi-AAR"/>
-                            <constraint firstAttribute="trailing" secondItem="E1l-4j-Tm4" secondAttribute="trailing" id="IcO-IB-gIy"/>
-                            <constraint firstItem="E1l-4j-Tm4" firstAttribute="top" secondItem="53A-D1-fig" secondAttribute="top" id="TX3-k1-Fcl"/>
-                            <constraint firstItem="E1l-4j-Tm4" firstAttribute="leading" secondItem="53A-D1-fig" secondAttribute="leading" id="tnx-Rb-n7u"/>
+                            <constraint firstItem="E1l-4j-Tm4" firstAttribute="bottom" secondItem="53A-D1-fig" secondAttribute="bottomMargin" id="9M5-Kp-79X"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E1l-4j-Tm4" secondAttribute="trailing" constant="-20" id="eul-di-ngV"/>
+                            <constraint firstItem="E1l-4j-Tm4" firstAttribute="leading" secondItem="53A-D1-fig" secondAttribute="leadingMargin" constant="-20" id="omr-CM-VSe"/>
+                            <constraint firstItem="E1l-4j-Tm4" firstAttribute="top" secondItem="53A-D1-fig" secondAttribute="topMargin" id="uk4-Mk-x3K"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Edit" id="Ms0-Ff-Uzf">
@@ -133,6 +133,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bottomField" destination="9M5-Kp-79X" id="VfK-G1-oPP"/>
                         <outlet property="todoField" destination="E1l-4j-Tm4" id="V8k-J3-1Wy"/>
                     </connections>
                 </viewController>
@@ -394,7 +395,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-tS-SlF">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -402,7 +403,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="DfX-tS-SlF" secondAttribute="trailing" id="8Yp-bW-52Y"/>
                             <constraint firstItem="DfX-tS-SlF" firstAttribute="leading" secondItem="R7E-Kf-K2Q" secondAttribute="leading" id="S3Q-SQ-4eQ"/>
-                            <constraint firstAttribute="bottom" secondItem="DfX-tS-SlF" secondAttribute="bottom" id="s6A-EY-Imt"/>
+                            <constraint firstItem="DfX-tS-SlF" firstAttribute="bottom" secondItem="R7E-Kf-K2Q" secondAttribute="bottom" id="s6A-EY-Imt"/>
                             <constraint firstItem="DfX-tS-SlF" firstAttribute="top" secondItem="R7E-Kf-K2Q" secondAttribute="top" id="wsN-Xa-EZU"/>
                         </constraints>
                     </view>
@@ -419,6 +420,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bottomField" destination="s6A-EY-Imt" id="mXc-t9-XN8"/>
                         <outlet property="todoField" destination="DfX-tS-SlF" id="iEW-qA-4IQ"/>
                     </connections>
                 </viewController>
@@ -447,7 +449,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="4Hz-v2-Bmc" secondAttribute="bottom" id="6lk-Vh-V8F"/>
+                            <constraint firstItem="4Hz-v2-Bmc" firstAttribute="bottom" secondItem="0EV-YP-noZ" secondAttribute="bottom" id="6lk-Vh-V8F"/>
                             <constraint firstItem="4Hz-v2-Bmc" firstAttribute="leading" secondItem="0EV-YP-noZ" secondAttribute="leading" id="UxV-cY-tQt"/>
                             <constraint firstItem="4Hz-v2-Bmc" firstAttribute="top" secondItem="0EV-YP-noZ" secondAttribute="top" id="fzo-QN-oVw"/>
                             <constraint firstAttribute="trailing" secondItem="4Hz-v2-Bmc" secondAttribute="trailing" id="o6e-zx-gc2"/>
@@ -466,6 +468,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bottomField" destination="6lk-Vh-V8F" id="5NI-of-fpd"/>
                         <outlet property="todoField" destination="4Hz-v2-Bmc" id="2BF-U4-neR"/>
                     </connections>
                 </viewController>
